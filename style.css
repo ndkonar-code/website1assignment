@@ -1,0 +1,16 @@
+* {margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif;}
+body {background:#f7faff; color:#333;}
+header {background:#5271ff; color:#fff; display:flex; justify-content:space-between; align-items:center; padding:15px 40px; position:sticky; top:0;}
+.logo {font-size:1.6rem; font-weight:bold;}
+nav a {color:#fff; text-decoration:none; margin:0 10px; font-weight:500;}
+nav a:hover {color:#ffd76a;}
+.hero {height:90vh; background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://i.imgur.com/N4rYdBb.jpg') center/cover no-repeat; color:#fff; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:20px;}
+.hero h2 {font-size:2.5rem; margin-bottom:15px;}
+button {background:#ffd76a; color:#333; border:none; padding:12px 25px; border-radius:30px; font-size:1rem; cursor:pointer; transition:0.3s;}
+button:hover {background:#ffbe4d; transform:scale(1.05);}
+.content {padding:100px 40px; text-align:center;}
+.content h2 {font-size:2rem; color:#5271ff; margin-bottom:20px;}
+.content p, .content li {font-size:1.1rem; line-height:1.6; margin:10px auto; max-width:700px;}
+textarea, input {width:100%; max-width:400px; padding:10px; margin:10px auto; border:1px solid #ccc; border-radius:8px;}
+ul {list-style-type:disc; text-align:left; margin:0 auto; max-width:600px;}
+footer {background:#5271ff; color:#fff; text-align:center; padding:15px; margin-top:40px;}
